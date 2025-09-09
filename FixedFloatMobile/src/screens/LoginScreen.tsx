@@ -1,8 +1,17 @@
 import React, { useState } from 'react';
-import { View, TextInput, Button, Alert } from 'react-native';
+import { View, Text, TextInput, Button, Alert } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import { saveSecureData } from '../utils/secureStorage';
+
+
+// export default function LoginScreen() {
+//   return (
+//     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+//       <Text>Login Screen</Text>
+//     </View>
+//   );
+// }
 
 
 export default function LoginScreen({ navigation }: any) {
